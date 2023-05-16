@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(223, 59%, 69%)
+}
+.card{
+    display: flex;
+    flex-direction: column;
+   background-color:hsl(0, 0%, 100%);
+    align-items: center;
+    height: 63vh;
+    width: 17vw;
+   padding: 0px 20px;
+   margin: auto;
+   margin-top: 12vh;
+   border-radius: 30px;
+}
+.mid {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.qr{
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.qr img{
+   width: 17vw;
+   height: 35vh;
+   border-radius: 15px;
+   
+}
+.last p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+   
+}
